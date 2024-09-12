@@ -4,7 +4,7 @@ public class MainComanda {
         EnderecoCliente endereco = new EnderecoCliente("Rua São José, 50 - Vila Pioneiro", "50", "Casa", "85909-160");
         Pedido pedido = new Pedido(1, 3);
         Produto produto = new Produto(3, "Cachorro Quente", 5.0);
-        //teste
+
         cliente.setEnderecoCliente(endereco);
         pedido.setCliente(cliente);
         pedido.setProduto(produto);
